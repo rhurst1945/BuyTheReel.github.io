@@ -1,0 +1,120 @@
+/* Top Navigation Bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Make the nav bar fixed at the top */
+  top: 0;
+  width: 100%;
+  z-index: 100; /* Ensure it stays above the side nav */
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#search-container {
+  float: right;
+  margin-top: 8px;
+  margin-right: 16px;
+  width: 300px;
+}
+
+#search-container input[type=text] {
+  padding: 6px;
+  border: none;
+}
+/* Side Navigation Menu */
+.sidenav {
+  height: 100%; /* Full height */
+  width: 200px; /* Set a specific width */
+  position: fixed; /* Fixed position */
+  z-index: 1; /* Stay on top of other content */
+  top: 50px; /* Below the top nav bar */
+  left: 0;
+  background-color: #f1f1f1;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #000;
+}
+
+/* Adjust main content to be below the top nav and to the right of the side nav */
+.main {
+  margin-top: 50px; /* Same height as top nav */
+  margin-left: 200px; /* Same width as side nav */
+  padding: 0px 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 5px;
+  padding-right: 500px;
+  padding-bottom: 15px;
+  padding-left: 200x;
+}
+
+img {
+  margin: 5px;
+}
+
+.image-overlay {
+    position: relative;
+}
+
+.image-overlay img {
+    width: 200px;
+    height: 147px;
+}
+
+.overlay-box {
+    position: absolute;
+    inset: 0;
+
+    background-color: rgba(0, 0, 0, 0.801);
+
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.image-overlay .overlay-box:hover {
+    opacity: 1;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+.iframe {
+position: absolute;
+right: 0%;
+}
+
+footer {
+padding-top: 475px;
+}
+
+.imgContainer{
+    float:left;
+}
