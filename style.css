@@ -2,10 +2,10 @@
 .topnav {
   overflow: hidden;
   background-color: #333;
-  position: fixed; /* Make the nav bar fixed at the top */
+  position: fixed; 
   top: 0;
   width: 100%;
-  z-index: 100; /* Ensure it stays above the side nav */
+  z-index: 100; 
 }
 
 .topnav a {
@@ -30,14 +30,14 @@
 }
 /* Side Navigation Menu */
 .sidenav {
-  height: 100%; /* Full height */
-  width: 200px; /* Set a specific width */
-  position: fixed; /* Fixed position */
-  z-index: 1; /* Stay on top of other content */
-  top: 50px; /* Below the top nav bar */
+  height: 100%; 
+  width: 200px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 50px; 
   left: 0;
   background-color: #f1f1f1;
-  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-x: hidden; 
   padding-top: 20px;
 }
 
@@ -53,10 +53,10 @@
   color: #000;
 }
 
-/* Adjust main content to be below the top nav and to the right of the side nav */
+
 .main {
-  margin-top: 50px; /* Same height as top nav */
-  margin-left: 200px; /* Same width as side nav */
+  margin-top: 50px; 
+  margin-left: 200px; 
   padding: 0px 10px;
 }
 
