@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Your Shopping Cart</title>
+<link rel="stylesheet" href="style.css">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+</head>
+<body onload="displayCart()">
+
+<!-- Top Navigation Bar -->
+<nav class="topnav">
+  <a href="index.html">Home</a>
+  <a href="cart.html">Cart</a>
+  <div id="search-container">
+    <script async src="https://cse.google.com/cse.js?cx=24626f94e7fb242bb"></script>
+    <div class="gcse-searchbox-only"></div>
+  </div>
+</nav>
+
+<!-- Side Navigation Menu -->
+<div class="sidenav">
+  <a href="about.html">About</a>
+  <a href="faq.html">FAQ</a>
+  <a href="youtube.html">Social Media</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<!-- Page Content -->
+<div class="main">
+  <h1>Your Shopping Cart</h1>
+  <div id="cart-container">
+    <!-- Cart items will appear here -->
+      <ul id="cart-items"></ul>
+  <p>Total: $<span id="cart-total">0.00</span></p>
+  </div>
+</div>
+
+<script src="cart.js"></script>
+
+<footer>Copyright © Documentary.tv. All Rights Reserved.</footer>
+
+</body>
+</html>
