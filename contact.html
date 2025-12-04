@@ -33,22 +33,15 @@
 <div class="main">
   <h1>Welcome to BuyTheReel.com!</h1>
   <p>We are your #1 source for historic archival footage. Our collection spans over 100 years, from the early 1900s to the early 2000s. All of our footage is 100% original, not AI.</p>
-<body>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form</title>
-</head>
-<body>
+
+<!-- Contact Form -->    
     <h1>Contact Us</h1>
     <form action="https://formsubmit.co/rhurst1945@yahoo.com" method="POST">
-        <label for="name">Name:</label><br>
+        <label for="name">Your Name:</label><br>
         <input type="text" id="name" name="name" required><br><br>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br><br>
 
         <label for="subject">Subject:</label><br>
         <input type="text" id="subject" name="subject" required><br><br>
@@ -58,7 +51,5 @@
 
         <input type="submit" value="Send Message">
     </form>
-</body>
-</html>
 </body>
 </html>
