@@ -1,7 +1,7 @@
 /* Top Navigation Bar */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: Black;
   position: fixed; 
   top: 0;
   width: 100%;
@@ -11,12 +11,13 @@
 .topnav a {
   float: left;
   display: block;
-  color: white;
+  color: White;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
+/* Google Search */
 #search-container {
   float: right;
   margin-top: 8px;
@@ -24,10 +25,6 @@
   width: 300px;
 }
 
-#search-container input[type=text] {
-  padding: 6px;
-  border: none;
-}
 /* Side Navigation Menu */
 .sidenav {
   height: 100%; 
@@ -36,7 +33,7 @@
   z-index: 1; 
   top: 50px; 
   left: 0;
-  background-color: #f1f1f1;
+  background-color: WhiteSmoke;
   overflow-x: hidden; 
   padding-top: 20px;
 }
@@ -45,12 +42,12 @@
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: Gray;
   display: block;
 }
 
 .sidenav a:hover {
-  color: #000;
+  color: Black;
 }
 
 /* Main Page */
