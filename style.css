@@ -75,7 +75,7 @@ img {
   margin: 5px;
 }
 
-/* Hover Effect */
+/* Hover Effect for Featured Collections*/
 .image-overlay {
     position: relative;
 }
@@ -88,9 +88,7 @@ img {
 .overlay-box {
     position: absolute;
     inset: 0;
-
     background-color: rgba(0, 0, 0, 0.801);
-
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
 }
@@ -108,7 +106,7 @@ img {
     color: rgb(255, 255, 255);
 }
 
-/* YouTube Embed */
+/* YouTube Embeds */
 .iframe {
 position: absolute;
 right: 0%;
@@ -118,6 +116,7 @@ footer {
 padding-top: 475px;
 }
 
+<!-- Films For Sale -->
 .imgContainer{
     float:left;
 }
