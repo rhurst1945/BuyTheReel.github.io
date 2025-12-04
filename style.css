@@ -53,13 +53,14 @@
   color: #000;
 }
 
-
+/* Main Page */
 .main {
   margin-top: 50px; 
   margin-left: 200px; 
   padding: 0px 10px;
 }
 
+/* Featured Collections */
 .container {
   display: flex;
   flex-direction: row;
@@ -74,6 +75,7 @@ img {
   margin: 5px;
 }
 
+/* Hover Effect */
 .image-overlay {
     position: relative;
 }
@@ -106,6 +108,7 @@ img {
     color: rgb(255, 255, 255);
 }
 
+/* YouTube Embed */
 .iframe {
 position: absolute;
 right: 0%;
