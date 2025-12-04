@@ -1,7 +1,7 @@
 /* Top Navigation Bar */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: Black;
   position: fixed; 
   top: 0;
   width: 100%;
@@ -11,12 +11,13 @@
 .topnav a {
   float: left;
   display: block;
-  color: white;
+  color: White;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
+/* Google Search */
 #search-container {
   float: right;
   margin-top: 8px;
@@ -24,10 +25,6 @@
   width: 300px;
 }
 
-#search-container input[type=text] {
-  padding: 6px;
-  border: none;
-}
 /* Side Navigation Menu */
 .sidenav {
   height: 100%; 
@@ -36,7 +33,7 @@
   z-index: 1; 
   top: 50px; 
   left: 0;
-  background-color: #f1f1f1;
+  background-color: WhiteSmoke;
   overflow-x: hidden; 
   padding-top: 20px;
 }
@@ -45,21 +42,22 @@
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: Gray;
   display: block;
 }
 
 .sidenav a:hover {
-  color: #000;
+  color: Black;
 }
 
-
+/* Main Page */
 .main {
   margin-top: 50px; 
   margin-left: 200px; 
   padding: 0px 10px;
 }
 
+/* Featured Collections */
 .container {
   display: flex;
   flex-direction: row;
@@ -74,6 +72,7 @@ img {
   margin: 5px;
 }
 
+/* Hover Effect for Featured Collections*/
 .image-overlay {
     position: relative;
 }
@@ -86,9 +85,7 @@ img {
 .overlay-box {
     position: absolute;
     inset: 0;
-
     background-color: rgba(0, 0, 0, 0.801);
-
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
 }
@@ -106,6 +103,7 @@ img {
     color: rgb(255, 255, 255);
 }
 
+/* YouTube Embeds */
 .iframe {
 position: absolute;
 right: 0%;
@@ -115,6 +113,7 @@ footer {
 padding-top: 475px;
 }
 
-.imgContainer{
-    float:left;
+/* Films For Sale */
+.imgContainer {
+    float: left;
 }
