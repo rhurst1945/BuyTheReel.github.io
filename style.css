@@ -32,6 +32,10 @@ height: 50px;
   text-decoration: none;
 }
 
+.topnav a:hover {
+  color: gray;
+}
+
 /* Google Search */
 #search-container {
   float: right;
