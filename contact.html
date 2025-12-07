@@ -51,7 +51,42 @@
         <label for="message">Message:</label><br>
         <textarea id="message" name="message" rows="5" required></textarea><br><br>
 
-        <input type="submit" value="Send Message">
+        <input type="submit" value="Send Message" class="button">
     </form>
+<!-- Styling for Responsive Send Button -->
+<style>
+.button {
+   margin: auto;
+   text-align: center;
+   vertical-align: middle;
+   width: 200px;
+   height: 35px; 
+   line-height: 60px;   
+   font: bold 20px arial;
+   border: solid 2px red;
+   box-shadow: 2px 2px 3px;
+   border-radius: 10px;   
+   background: radial-gradient(white, #bbb);
+   transition: all 100ms ease-in-out;
+}
+
+@keyframes wiggle {
+   0%   { transform: rotate(0); }  
+   25%  { transform: rotate(3deg); }  
+   75%  { transform: rotate(-3deg); }
+   100% { transform: rotate(0); }
+}
+
+.button:hover {
+   transform: scale(1.05) ;
+   color: red;  
+   cursor: pointer;
+}
+
+.button:active {
+   transform: scale(0.95);
+   background: radial-gradient(#ddd, #999);
+}
+</style>
 </body>
 </html>
