@@ -1,3 +1,7 @@
+body {
+margin: 0;
+}
+
 h1 {
   font-family: "Archivo Black", sans-serif;
   font-weight: 400;
@@ -11,11 +15,12 @@ p {
 /* Top Navigation Bar */
 .topnav {
   overflow: hidden;
-  background-color: Black;
+  background-color: black;
   position: fixed; 
   top: 0;
+height: 50px;
   width: 100%;
-  z-index: 100; 
+  z-index: 1; 
 }
 
 .topnav a {
@@ -25,6 +30,10 @@ p {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.topnav a:hover {
+  color: gray;
 }
 
 /* Google Search */
