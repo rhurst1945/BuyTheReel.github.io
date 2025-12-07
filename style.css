@@ -119,9 +119,13 @@ position: absolute;
 right: 0%;
 }
 
-<footer class="footer">
- <p>&copy; 2025 Documentary.TV. All rights reserved.</p>
-</footer>
+.footer {
+  text-align: center;
+  padding: 15px;
+  position: relative; /* Or fixed, depending on desired behavior */
+  bottom: 0;
+  width: 100%;
+}
 
 /* Films For Sale */
 .imgContainer {
