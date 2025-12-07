@@ -73,9 +73,9 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   padding-top: 5px;
-  padding-right: 500px;
+  padding-right: 200px;
   padding-bottom: 15px;
-  padding-left: 500x;
+  padding-left: 200x;
 }
 
 img {
