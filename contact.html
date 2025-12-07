@@ -41,7 +41,9 @@
 &nbsp;
 <!-- Contact Form -->    
     <h1>Contact Us</h1>
-    <form action="https://formsubmit.co/rhurst1945@yahoo.com" method="POST">
+<div class="grid-container">
+<div class="grid-child">    
+<form action="https://formsubmit.co/rhurst1945@yahoo.com" method="POST">
         <label for="name">Your Name:</label><br>
         <input type="text" id="name" name="name" required><br><br>
 
@@ -56,6 +58,11 @@
 
         <input type="submit" value="Send Message" class="button">
     </form>
+</div>
+<div class="grid-child">
+<img src="127-R-918.jpg" alt="USMC Combat Cameraman, 1944" title="USMC Combat Cameraman, 1944"></div>
+</div>
+
 <!-- Styling for Responsive Send Button -->
 <style>
 .button {
@@ -89,6 +96,17 @@
 .button:active {
    transform: scale(0.95);
    background: radial-gradient(#ddd, #999);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Creates two equal-width columns */
+  /* Optional: Adds space between grid items */
+   
+}
+
+.grid-child {
+  /* Styling for grid items */
 }
 </style>
 </body>
