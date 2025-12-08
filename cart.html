@@ -1,90 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Your Shopping Cart</title>
-<link rel="stylesheet" href="style.css">
-<meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Your Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
 </head>
+
 <body onload="displayCart()">
 
 
-<!-- Top Navigation Bar -->
-<nav class="topnav">
-  <a href="index.html">Home</a>
-  <a href="cart.html">Cart</a>
-  <div id="search-container">
-    <script async src="https://cse.google.com/cse.js?cx=24626f94e7fb242bb"></script>
-    <div class="gcse-searchbox-only"></div>
+  <!-- Top Navigation Bar -->
+  <nav class="topnav">
+    <a href="index.html">Home</a>
+    <a href="cart.html">Cart</a>
+    <div id="search-container">
+      <script async src="https://cse.google.com/cse.js?cx=24626f94e7fb242bb"></script>
+      <div class="gcse-searchbox-only"></div>
+    </div>
+  </nav>
+
+  <!-- Side Navigation Menu -->
+  <div class="sidenav">
+    <a href="about.html">About</a>
+    <a href="faq.html">FAQ</a>
+    <a href="youtube.html">YouTube</a>
+    <a href="contact.html">Contact</a>
   </div>
-</nav>
 
-<!-- Side Navigation Menu -->
-<div class="sidenav">
-  <a href="about.html">About</a>
-  <a href="faq.html">FAQ</a>
-  <a href="youtube.html">YouTube</a>
-  <a href="contact.html">Contact</a>
-</div>
-
-<!-- Page Content -->
-<div class="cart-container">
-  <h1>Your Shopping Cart</h1>
-  <div id="cart-container">
-    <!-- Cart items will appear here -->
+  <!-- Page Content -->
+  <div class="cart-container">
+    <h1>Your Shopping Cart</h1>
+    <div id="cart-container">
+      <!-- Cart items will appear here -->
       <ul id="cart-items"></ul>
-  <p>Total: $<span id="cart-total">0.00</span></p>
+      <p>Total: $<span id="cart-total">0.00</span></p>
+    </div>
   </div>
-</div>
 
-<script src="cart.js"></script>
+  <script src="cart.js"></script>
 
-<footer>Copyright © Documentary.tv. All Rights Reserved.</footer>
+  <footer>Copyright © Documentary.tv. All Rights Reserved.</footer>
 
-<style>
-/* Style the white box around the cart (matches FAQ container) */
-.cart-container {
-    max-width: 800px;
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px gray;
-    margin: 20px auto;
-}
+  <style>
+    /* Style the white box around the cart */
+    .cart-container {
+      max-width: 800px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px gray;
+      margin: 20px auto;
+    }
 
-/* Style each cart item like a FAQ item line */
-#cart-items li {
-    margin-bottom: 15px;
-    border-bottom: 1px solid gray;
-    padding-bottom: 15px;
-    color: dimgrey;
-    list-style: none;
-}
+    /* Style each cart item */
+    #cart-items li {
+      margin-bottom: 15px;
+      border-bottom: 1px solid gray;
+      padding-bottom: 15px;
+      color: dimgrey;
+      list-style: none;
+    }
 
-/* Title similar to FAQ questions */
-.cart-container h1 {
-    font-weight: bold;
-    color: black;
-    font-size: 1.4em;
-    margin-bottom: 20px;
-    text-align: center;
-}
+    /* Title */
+    .cart-container h1 {
+      font-weight: bold;
+      color: black;
+      font-size: 1.4em;
+      margin-bottom: 20px;
+      text-align: center;
+    }
 
-/* Total line styled similar to FAQ answer text */
-#cart-container p {
-    color: dimgrey;
-    margin-top: 15px;
-    font-size: 1.1em;
-}
+    /* Total line */
+    #cart-container p {
+      color: dimgrey;
+      margin-top: 15px;
+      font-size: 1.1em;
+    }
 
-#cart-total {
-    color: black;
-    font-weight: bold;
-}
-</style>
+    #cart-total {
+      color: black;
+      font-weight: bold;
+    }
+  </style>
 
 
 </body>
+
 </html>
